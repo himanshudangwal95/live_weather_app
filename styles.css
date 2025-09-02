@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e0e7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    padding: 2em;
+    width: 320px;
+    text-align: center;
+}
+input, button {
+    padding: 0.5em;
+    margin: 0.5em;
+    border: 1px solid #cbd5e0;
+    border-radius: 4px;
+}
+button {
+    background: #2563eb;
+    color: #fff;
+    cursor: pointer;
+}
+.weather-info p {
+    margin: 0.5em 0;
+}
